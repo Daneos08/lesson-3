@@ -6,5 +6,16 @@ class Person:
     self.name = name
     self.height = height
 
-me = Person('Denis', 179)
-you = Person('Name', 175)
+class Cat:
+  color = "Black"
+
+   def __init__(self, name):
+     self.name = name
+
+
+
+
+
+me = Person('Deenis', 179)
+
+me_pet = Cat("Barsik")
